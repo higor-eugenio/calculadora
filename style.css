@@ -1,0 +1,92 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg,#000000, #01012e);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto;
+    background-color: #0000004d;
+    width: 100%;
+    height: 73vh;
+    width: 25vw;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #211f1f;
+}
+
+.tela {
+   background: #ffff;
+   display: flex;
+   width: 80%;
+   height: 10vh;
+   border-radius: 10px;
+  box-shadow: inset 3px 3px 3px #211f1f;
+   
+}
+
+p {
+    font-size: 45pt;
+    margin: auto;
+    padding-right: 10px;
+    text-align: end;
+    width: 100%;
+}
+
+.card>h1 {
+    color: #FFFF;
+    letter-spacing: 5px;
+    font-size: 15pt;
+    margin-top: 30px;
+}
+table {
+    width: 80%;
+    text-align: center;
+    table-layout: fixed;
+    margin: 20px 20px
+}
+
+button { 
+    display: flex;
+    border-radius: 15px;
+    background: #211f1f;
+    cursor: pointer;
+    color: #FFFF;
+    font-size: 20pt;
+    box-sizing: border-box;
+    width: 100%;
+    height: 8vh;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 5px auto;
+}
+
+button:hover {
+   background: #000000;
+   box-shadow: inset 0px 0px 0px 1px #211f1f;
+    
+}   
+.igual {
+width: 100%;
+background: #ff4500;
+}
+.igual:hover {
+    color: #ff4500;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .card {
+        width: 80%;
+    }
+    
+
+    }
+
